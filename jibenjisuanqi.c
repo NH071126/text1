@@ -1,0 +1,39 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main()
+{
+	char choice;
+	double a, b;
+	printf("您要进行加法(A)、减法(S)、乘法(M)还是除法(D) ? : ");
+		scanf(" %c", &choice);
+
+		printf("请输入两个数字: ");
+    scanf("%lf %lf", &a, &b);
+
+	if(choice == 'A')
+	{
+		printf("%lf + %lf = %lf\n", a, b, a + b);
+	}
+	else if(choice == 'S')
+	{
+		printf("%lf - %lf = %lf\n", a, b, a - b);
+	}
+	else if(choice == 'M')
+	{
+		printf("%lf * %lf = %lf\n", a, b, a * b);
+	}
+	else if(choice == 'D')
+	{
+		if(b != 0)
+			printf("%lf / %lf = %lf\n", a, b, a / b);
+		else
+			printf("除数不能为零！\n");
+	}
+	else
+	{
+		printf("无效的选择！\n");
+	}
+	
+	return 0;
+}
