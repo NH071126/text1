@@ -4,7 +4,7 @@
 int main() {
 	double sheshidu;
 	double huashidu;
-	printf("�����뻪���¶ȣ�");
+	printf("ÇëÊäÈë»ªÊÏÎÂ¶È£º");
 	scanf("%lf", &huashidu);
     sheshidu = ( huashidu - 32) * 5.0 / 9;
 	printf("%.2f ", sheshidu);
