@@ -5,10 +5,10 @@ int main()
 {
 	char choice;
 	double a, b;
-	printf("ÄúÒª½øĞĞ¼Ó·¨(A)¡¢¼õ·¨(S)¡¢³Ë·¨(M)»¹ÊÇ³ı·¨(D) ? : ");
+	printf("æ‚¨è¦è¿›è¡ŒåŠ æ³•(A)ã€å‡æ³•(S)ã€ä¹˜æ³•(M)è¿˜æ˜¯é™¤æ³•(D) ? : ");
 		scanf(" %c", &choice);
 
-		printf("ÇëÊäÈëÁ½¸öÊı×Ö: ");
+		printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°å­—: ");
     scanf("%lf %lf", &a, &b);
 
 	if(choice == 'A')
@@ -28,11 +28,11 @@ int main()
 		if(b != 0)
 			printf("%lf / %lf = %lf\n", a, b, a / b);
 		else
-			printf("³ıÊı²»ÄÜÎªÁã£¡\n");
+			printf("é™¤æ•°ä¸èƒ½ä¸ºé›¶ï¼\n");
 	}
 	else
 	{
-		printf("ÎŞĞ§µÄÑ¡Ôñ£¡\n");
+		printf("æ— æ•ˆçš„é€‰æ‹©ï¼\n");
 	}
 	
 	return 0;
