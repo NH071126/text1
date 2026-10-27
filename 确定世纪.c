@@ -5,16 +5,16 @@ int main()
 {
 	int year;
 	int century;
-	printf("ÇëÊäÈëÄê·İ:");
+	printf("è¯·è¾“å…¥å¹´ä»½:");
 	scanf("%d", &year);
 	if(year>0)
 	{
 		century = (year - 1) / 100 + 1;
-		printf("%dÊÀ¼Í\n", century);
+		printf("%dä¸–çºª\n", century);
 	}
 	else
 	{
-		printf("Äê·İ²»ÄÜÎª0»ò¸ºÊı!\n");
+		printf("å¹´ä»½ä¸èƒ½ä¸º0æˆ–è´Ÿæ•°!\n");
 	}
 
 	
