@@ -12,37 +12,37 @@ int main()
 	
 	while (total < 1000)
 	{
-		printf("ÇëÑ¡Ôñ²Ëµ¥:ÐÞ¸Ä¼Û¸ñ[M], ³öÊÛ[S]:");
+		printf("è¯·é€‰æ‹©èœå•:ä¿®æ”¹ä»·æ ¼[M], å‡ºå”®[S]:");
 		scanf(" %c",&choice);
-		printf("ÇëÊäÈëÊÕÈëÀàÐÍ(Ð¡Âó [W]¡¢Ñó´Ð[O]¡¢Î÷ºìÊÁ[T] »òºúÂÜ²·[C]):");
+		printf("è¯·è¾“å…¥æ”¶å…¥ç±»åž‹(å°éº¦ [W]ã€æ´‹è‘±[O]ã€è¥¿çº¢æŸ¿[T] æˆ–èƒ¡èåœ[C]):");
 		scanf(" %c", &type);
 
 		if (choice == 'M')
 		{
 			if (type == 'W') {
-				printf("ÇëÊäÈëÐ¡ÂóµÄÐÂ¼Û¸ñ:");
+				printf("è¯·è¾“å…¥å°éº¦çš„æ–°ä»·æ ¼:");
 				scanf("%d",&newprice);
-				printf("½«Ð¡Âó¼Û¸ñ¸ü¸ÄÎª%d½ð±Ò:\n",newprice);
+				printf("å°†å°éº¦ä»·æ ¼æ›´æ”¹ä¸º%dé‡‘å¸:\n",newprice);
 			}
 			else if (type == 'O') {
-				printf("ÇëÊäÈëÑó´ÐµÄÐÂ¼Û¸ñ:");
+				printf("è¯·è¾“å…¥æ´‹è‘±çš„æ–°ä»·æ ¼:");
 				scanf("%d",&newprice);
-				printf("½«Ñó´Ð¼Û¸ñ¸ü¸ÄÎª%d½ð±Ò:\n",newprice);
+				printf("å°†æ´‹è‘±ä»·æ ¼æ›´æ”¹ä¸º%dé‡‘å¸:\n",newprice);
 			}
 			else if (type == 'T') {
-				printf("ÇëÊäÈëÎ÷ºìÊÁµÄÐÂ¼Û¸ñ:");
+				printf("è¯·è¾“å…¥è¥¿çº¢æŸ¿çš„æ–°ä»·æ ¼:");
 				scanf("%d",&newprice);
-				printf("½«Î÷ºìÊÁ¼Û¸ñ¸ü¸ÄÎª%d½ð±Ò:\n",newprice);
+				printf("å°†è¥¿çº¢æŸ¿ä»·æ ¼æ›´æ”¹ä¸º%dé‡‘å¸:\n",newprice);
 			}
 			else if (type == 'C') {
-				printf("ÇëÊäÈëºúÂÜ²·µÄÐÂ¼Û¸ñ:");
+				printf("è¯·è¾“å…¥èƒ¡èåœçš„æ–°ä»·æ ¼:");
 				scanf("%d",&newprice);
-				printf("½«ºúÂÜ²·¼Û¸ñ¸ü¸ÄÎª%d½ð±Ò:\n",newprice);
+				printf("å°†èƒ¡èåœä»·æ ¼æ›´æ”¹ä¸º%dé‡‘å¸:\n",newprice);
 			}
 		}
 		else if (choice == 'S')
 		{
-			printf("ÇëÊäÈëÄú³öÊÛµÄ¹«½ïÊý:\n");
+			printf("è¯·è¾“å…¥æ‚¨å‡ºå”®çš„å…¬æ–¤æ•°:\n");
 			scanf("%d", &weight);
 			if (type == 'W') {
 				price = 5;
@@ -59,6 +59,6 @@ int main()
 			total += weight * price;
 		}
 	}
-	printf("ÄúÒÔ»ñµÃ%d½ð±Ò,¿ÉÒÔÐÝÏ¢Ò»ÏÂÁË", total);
+	printf("æ‚¨ä»¥èŽ·å¾—%dé‡‘å¸,å¯ä»¥ä¼‘æ¯ä¸€ä¸‹äº†", total);
 	return 0;
 }
