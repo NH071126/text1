@@ -7,14 +7,14 @@ int main()
 	int food_size;
 	while (1)
 	{
-		printf("ÇëÊäÈëÊ³ÎïµÄ´óĞ¡:");
+		printf("è¯·è¾“å…¥é£Ÿç‰©çš„å¤§å°:");
 		scanf("%d", &food_size);
 		if (length >= food_size) {
 			length += food_size;
-			printf("Éß³ÔµôÊ³Îï³¤¶È±äÎª%dÃ×:", length);
+			printf("è›‡åƒæ‰é£Ÿç‰©é•¿åº¦å˜ä¸º%dç±³:", length);
 		}
 		else if(length < food_size){
-			printf("ÉßÔÚ³Ô±ÈËü´óµÄÊ³ÎïÊ±ËÀÁË,×Ü³¤¶ÈÎª%dÃ×:", length);
+			printf("è›‡åœ¨åƒæ¯”å®ƒå¤§çš„é£Ÿç‰©æ—¶æ­»äº†,æ€»é•¿åº¦ä¸º%dç±³:", length);
 			break;
 		}
 	}
