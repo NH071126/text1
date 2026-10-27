@@ -8,16 +8,16 @@
 		char choice;
 		char peisong;
 
-		printf("ÊäÈëN¼ÆËãĞÂ¶©µ¥");
-		printf("ÊäÈëQ½áÊø³ÌĞò");
+		printf("è¾“å…¥Nè®¡ç®—æ–°è®¢å•");
+		printf("è¾“å…¥Qç»“æŸç¨‹åº");
 		scanf(" %c", &choice);
 		if(choice == 'N' )
 		{
-			printf("ÇëÊäÈëÅûÈøÊıÁ¿£º");
+			printf("è¯·è¾“å…¥æŠ«è¨æ•°é‡ï¼š");
 			scanf("%d", &num1);
-			printf("ÇëÊäÈëÅûÈøÅäÁÏÊıÁ¿£º");
+			printf("è¯·è¾“å…¥æŠ«è¨é…æ–™æ•°é‡ï¼š");
 			scanf("%d", &num2);
-			printf("ÇëÑ¡ÔñÊÇ·ñĞèÒªÅäËÍ£¨Y/N£©£º");
+			printf("è¯·é€‰æ‹©æ˜¯å¦éœ€è¦é…é€ï¼ˆY/Nï¼‰ï¼š");
 			scanf(" %c", &peisong);
 			if(peisong == 'Y' )
 			{
@@ -27,11 +27,11 @@
 			{
 				price = num1 * 20 + num2 * 2;
 			}
-			printf("¶©µ¥×Ü¼ÛÎª£º%d\n", price);
+			printf("è®¢å•æ€»ä»·ä¸ºï¼š%d\n", price);
 		}
 		else if(choice == 'Q' )
 		{
-			printf("³ÌĞò½áÊø\n");
+			printf("ç¨‹åºç»“æŸ\n");
 		}
 		return 0;
 	}
