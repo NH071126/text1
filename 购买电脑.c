@@ -6,9 +6,9 @@ int main()
 	int count=0;
 	double price = 95.125;
 	double total=0.0;
-	printf("ÄãÏëÂò¶àÉÙÌ¨µçÄÔ %d\n");
+	printf("ä½ æƒ³ä¹°å¤šå°‘å°ç”µè„‘ %d\n");
 	scanf("%d", &count);
 	total = count * price;
-	printf("%dÌ¨µçÄÔµÄ¼Û¸ñÎª %f¸öÓ²±Ò\n", count,total);
+	printf("%då°ç”µè„‘çš„ä»·æ ¼ä¸º %fä¸ªç¡¬å¸\n", count,total);
 	return 0;
 }
